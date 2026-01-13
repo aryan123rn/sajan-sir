@@ -1,0 +1,42 @@
+console.log("Hello, aryan!");
+console.info("Info");
+console.warn("Warning");
+console.error("error in website");
+
+var a; //declared but not defined
+a = 2; // assined value 2 to a
+var b = 3; // declared and assigned
+
+// var can be redeclared and reassigned
+// let cannot be redeclared but can be reassigned
+// const cannot be redeclared or reassigned
+
+let c = 5; // declared and assigned
+console.log(c);
+c = 5; // declared and assigned
+console.log(c);
+
+//const
+const d = 10; // declared and assigned
+// const d = 10; // declared and assigned
+
+let aa = 1
+console.log(aa) //1
+if (true){
+let aa = 4
+console.log(aa) //4
+}
+console.log(aa) //1
+
+console.log(typeof a); //number
+console.log(typeof 'aryan'); //string
+
+let ee = null;
+console.log(typeof ee); //object
+
+// array & object
+let abc = ['cat', 'dog', 'tiger']; // array
+console.log(typeof abc);
+
+let std = {id :1, name: 'aryan'}; // object
+console.log(typeof std);
